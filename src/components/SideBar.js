@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import '../assets/css/sidebar.scss';
 class SideBar extends Component {
     constructor(props){
         super(props);
@@ -8,128 +9,128 @@ class SideBar extends Component {
     }
     render() {
         return(
-            <div class="sidebar">
-                <div class="sidebar-inner">
-                    <div class="sidebar-logo">
-                        <div class="peers ai-c fxw-nw">
-                            <div class="peer peer-greed">
-                                <a class="sidebar-link td-n" href="index.html">
-                                <div class="peers ai-c fxw-nw">
-                                    <div class="peer">
-                                    <div class="logo">
+            <div className="sidebar">
+                <div className="sidebar-inner">
+                    <div className="sidebar-logo">
+                        <div className="peers ai-c fxw-nw">
+                            <div className="peer peer-greed">
+                                <a className="sidebar-link td-n" href="index.html">
+                                <div className="peers ai-c fxw-nw">
+                                    <div className="peer">
+                                    <div className="logo">
                                         <img src="assets/static/images/logo.png" alt="" />
                                     </div>
                                     </div>
-                                    <div class="peer peer-greed">
-                                    <h5 class="lh-1 mB-0 logo-text">Adminator</h5>
+                                    <div className="peer peer-greed">
+                                    <h5 className="lh-1 mB-0 logo-text">Adminator</h5>
                                     </div>
                                 </div>
                                 </a>
                             </div>
-                            <div class="peer">
-                                <div class="mobile-toggle sidebar-toggle">
-                                <a href="" class="td-n">
-                                    <i class="ti-arrow-circle-left"></i>
+                            <div className="peer">
+                                <div className="mobile-toggle sidebar-toggle">
+                                <a href="" className="td-n">
+                                    <i className="ti-arrow-circle-left"></i>
                                 </a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                <ul class="sidebar-menu scrollable pos-r">
-                    <li class="nav-item mT-30 active">
-                    <a class="sidebar-link" href="index.html">
-                        <span class="icon-holder">
-                        <i class="c-blue-500 ti-home"></i>
+                <ul className="sidebar-menu scrollable pos-r">
+                    <li className="nav-item mT-30 active">
+                    <a className="sidebar-link" href="index.html">
+                        <span className="icon-holder">
+                        <i className="c-blue-500 ti-home"></i>
                         </span>
-                        <span class="title">Dashboard</span>
+                        <span className="title">Dashboard</span>
                     </a>
                     </li>
-                    <li class="nav-item">
-                    <a class='sidebar-link' href="email.html">
-                        <span class="icon-holder">
-                        <i class="c-brown-500 ti-email"></i>
+                    <li className="nav-item">
+                    <a className='sidebar-link' href="email.html">
+                        <span className="icon-holder">
+                        <i className="c-brown-500 ti-email"></i>
                         </span>
-                        <span class="title">Email</span>
+                        <span className="title">Email</span>
                     </a>
                     </li>
-                    <li class="nav-item">
-                    <a class='sidebar-link' href="compose.html">
-                        <span class="icon-holder">
-                        <i class="c-blue-500 ti-share"></i>
+                    <li className="nav-item">
+                    <a className='sidebar-link' href="compose.html">
+                        <span className="icon-holder">
+                        <i className="c-blue-500 ti-share"></i>
                         </span>
-                        <span class="title">Compose</span>
+                        <span className="title">Compose</span>
                     </a>
                     </li>
-                    <li class="nav-item">
-                    <a class='sidebar-link' href="calendar.html">
-                        <span class="icon-holder">
-                        <i class="c-deep-orange-500 ti-calendar"></i>
+                    <li className="nav-item">
+                    <a className='sidebar-link' href="calendar.html">
+                        <span className="icon-holder">
+                        <i className="c-deep-orange-500 ti-calendar"></i>
                         </span>
-                        <span class="title">Calendar</span>
+                        <span className="title">Calendar</span>
                     </a>
                     </li>
-                    <li class="nav-item">
-                    <a class='sidebar-link' href="chat.html">
-                        <span class="icon-holder">
-                        <i class="c-deep-purple-500 ti-comment-alt"></i>
+                    <li className="nav-item">
+                    <a className='sidebar-link' href="chat.html">
+                        <span className="icon-holder">
+                        <i className="c-deep-purple-500 ti-comment-alt"></i>
                         </span>
-                        <span class="title">Chat</span>
+                        <span className="title">Chat</span>
                     </a>
                     </li>
-                    <li class="nav-item">
-                    <a class='sidebar-link' href="charts.html">
-                        <span class="icon-holder">
-                        <i class="c-indigo-500 ti-bar-chart"></i>
+                    <li className="nav-item">
+                    <a className='sidebar-link' href="charts.html">
+                        <span className="icon-holder">
+                        <i className="c-indigo-500 ti-bar-chart"></i>
                         </span>
-                        <span class="title">Charts</span>
+                        <span className="title">Charts</span>
                     </a>
                     </li>
-                    <li class="nav-item">
-                    <a class='sidebar-link' href="forms.html">
-                        <span class="icon-holder">
-                        <i class="c-light-blue-500 ti-pencil"></i>
+                    <li className="nav-item">
+                    <a className='sidebar-link' href="forms.html">
+                        <span className="icon-holder">
+                        <i className="c-light-blue-500 ti-pencil"></i>
                         </span>
-                        <span class="title">Forms</span>
+                        <span className="title">Forms</span>
                     </a>
                     </li>
-                    <li class="nav-item dropdown">
-                    <a class="sidebar-link" href="ui.html">
-                        <span class="icon-holder">
-                            <i class="c-pink-500 ti-palette"></i>
+                    <li className="nav-item dropdown">
+                    <a className="sidebar-link" href="ui.html">
+                        <span className="icon-holder">
+                            <i className="c-pink-500 ti-palette"></i>
                         </span>
-                        <span class="title">UI Elements</span>
+                        <span className="title">UI Elements</span>
                     </a>
                     </li>
-                    <li class="nav-item dropdown">
-                    <a class="dropdown-toggle" href="javascript:void(0);">
-                        <span class="icon-holder">
-                        <i class="c-orange-500 ti-layout-list-thumb"></i>
+                    <li className="nav-item dropdown">
+                    <a className="dropdown-toggle" href="javascript:void(0);">
+                        <span className="icon-holder">
+                        <i className="c-orange-500 ti-layout-list-thumb"></i>
                         </span>
-                        <span class="title">Tables</span>
-                        <span class="arrow">
-                        <i class="ti-angle-right"></i>
+                        <span className="title">Tables</span>
+                        <span className="arrow">
+                        <i className="ti-angle-right"></i>
                         </span>
                     </a>
-                    <ul class="dropdown-menu">
+                    <ul className="dropdown-menu">
                         <li>
-                        <a class='sidebar-link' href="basic-table.html">Basic Table</a>
+                        <a className='sidebar-link' href="basic-table.html">Basic Table</a>
                         </li>
                         <li>
-                        <a class='sidebar-link' href="datatable.html">Data Table</a>
+                        <a className='sidebar-link' href="datatable.html">Data Table</a>
                         </li>
                     </ul>
                     </li>
-                    <li class="nav-item dropdown">
-                    <a class="dropdown-toggle" href="javascript:void(0);">
-                        <span class="icon-holder">
-                            <i class="c-purple-500 ti-map"></i>
+                    <li className="nav-item dropdown">
+                    <a className="dropdown-toggle" href="javascript:void(0);">
+                        <span className="icon-holder">
+                            <i className="c-purple-500 ti-map"></i>
                         </span>
-                        <span class="title">Maps</span>
-                        <span class="arrow">
-                            <i class="ti-angle-right"></i>
+                        <span className="title">Maps</span>
+                        <span className="arrow">
+                            <i className="ti-angle-right"></i>
                         </span>
                     </a>
-                    <ul class="dropdown-menu">
+                    <ul className="dropdown-menu">
                         <li>
                         <a href="google-maps.html">Google Map</a>
                         </li>
@@ -138,58 +139,58 @@ class SideBar extends Component {
                         </li>
                     </ul>
                     </li>
-                    <li class="nav-item dropdown">
-                    <a class="dropdown-toggle" href="javascript:void(0);">
-                        <span class="icon-holder">
-                            <i class="c-red-500 ti-files"></i>
+                    <li className="nav-item dropdown">
+                    <a className="dropdown-toggle" href="javascript:void(0);">
+                        <span className="icon-holder">
+                            <i className="c-red-500 ti-files"></i>
                         </span>
-                        <span class="title">Pages</span>
-                        <span class="arrow">
-                            <i class="ti-angle-right"></i>
+                        <span className="title">Pages</span>
+                        <span className="arrow">
+                            <i className="ti-angle-right"></i>
                         </span>
                     </a>
-                    <ul class="dropdown-menu">
+                    <ul className="dropdown-menu">
                         <li>
-                        <a class='sidebar-link' href="blank.html">Blank</a>
+                        <a className='sidebar-link' href="blank.html">Blank</a>
                         </li>                 
                         <li>
-                        <a class='sidebar-link' href="404.html">404</a>
+                        <a className='sidebar-link' href="404.html">404</a>
                         </li>
                         <li>
-                        <a class='sidebar-link' href="500.html">500</a>
+                        <a className='sidebar-link' href="500.html">500</a>
                         </li>
                         <li>
-                        <a class='sidebar-link' href="signin.html">Sign In</a>
+                        <a className='sidebar-link' href="signin.html">Sign In</a>
                         </li>
                         <li>
-                        <a class='sidebar-link' href="signup.html">Sign Up</a>
+                        <a className='sidebar-link' href="signup.html">Sign Up</a>
                         </li>
                     </ul>
                     </li>
-                    <li class="nav-item dropdown">
-                    <a class="dropdown-toggle" href="javascript:void(0);">
-                        <span class="icon-holder">
-                        <i class="c-teal-500 ti-view-list-alt"></i>
+                    <li className="nav-item dropdown">
+                    <a className="dropdown-toggle" href="javascript:void(0);">
+                        <span className="icon-holder">
+                        <i className="c-teal-500 ti-view-list-alt"></i>
                         </span>
-                        <span class="title">Multiple Levels</span>
-                        <span class="arrow">
-                        <i class="ti-angle-right"></i>
+                        <span className="title">Multiple Levels</span>
+                        <span className="arrow">
+                        <i className="ti-angle-right"></i>
                         </span>
                     </a>
-                    <ul class="dropdown-menu">
-                        <li class="nav-item dropdown">
+                    <ul className="dropdown-menu">
+                        <li className="nav-item dropdown">
                         <a href="javascript:void(0);">
                             <span>Menu Item</span>
                         </a>
                         </li>
-                        <li class="nav-item dropdown">
+                        <li className="nav-item dropdown">
                         <a href="javascript:void(0);">
                             <span>Menu Item</span>
-                            <span class="arrow">
-                            <i class="ti-angle-right"></i>
+                            <span className="arrow">
+                            <i className="ti-angle-right"></i>
                             </span>
                         </a>
-                        <ul class="dropdown-menu">
+                        <ul className="dropdown-menu">
                             <li>
                             <a href="javascript:void(0);">Menu Item</a>
                             </li>
@@ -206,3 +207,5 @@ class SideBar extends Component {
         );
     }
 }
+
+export default SideBar;
