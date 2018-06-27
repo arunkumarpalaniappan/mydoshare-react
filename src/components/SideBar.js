@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import '../assets/css/sidebar.scss';
 class SideBar extends Component {
     constructor(props){
         super(props);
